@@ -1,5 +1,7 @@
 # OscrApp
-This app was designed for the city of San Francisco. There is a cash refund value for all bottle and cans.The homeless popluation uses that cash refund value as a source of income. What this means is that the trash cans are dumped out and trash is strewn across sidewalks. It is problem with no easy solutions. 
+
+##Inspiration behind the application
+This app was designed for the city of San Francisco. There is a cash refund value for all bottle and cans.The homeless popluation uses that cash refund value as a source of income. What this means is that the trash cans are dumped out and trash is strewn across sidewalks. It is a problem with no easy solutions. 
 
 OSCR, named after Oscar the Grouch, is a simple location reporting application that depends on crowdsourced data. If enough data is gathered, trends may be spotted. For example, the data could be used by food kitchens to more effectively distribute donations and food. Or used in city council meetings to demonstrate to better target street cleaning. 
 
