@@ -1,0 +1,10 @@
+<div class="logo">OSCR</div>
+
+<div id="container" class="contentcontainer" ng-init="getData()">
+<div id="map" class="googlemap"></div>
+
+  <ul>
+    <li class="list-item" ng-click="claimLoc(location)" ng-repeat="location in locations track by $index">{{ location.address}} <br> <span> No. of times reported: {{location.reports}} </span><br> Claimed(click me): {{location.claimed}}</li>
+  </ul>
+
+</div>

@@ -1,0 +1,83 @@
+.blink {
+  animation: blink-animation 1.1s steps(10, start) infinite;
+  -webkit-animation: blink-animation 1.1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+.contentcontainer {
+  padding-top: 70px;
+  padding-left: 400px;
+  margin-top: 100px;
+  width:100%;
+}
+
+.formtitle {
+  margin-left: 290px;
+  position: relative;
+  left: 309px;
+  right: 0px;
+  margin-top: 200px;
+  font-family: 'Space Mono', monospace;
+}
+
+.googlemap {
+  width: 50%;
+  height: 520px;
+  display: inline-block;
+
+}
+
+.list-item {
+  width: 400px;
+  height: 29px;
+  padding-bottom: 42px;
+  padding-left: 10px;
+  font-family: 'Space Mono', monospace;
+  border-style: dotted;
+
+}
+
+.logo{
+  font-size: 80px;
+  font-family: 'VT323', monospace;
+  margin-left: 50px;
+  margin-top: -60px;
+}
+
+.report {
+  margin-left: 600px;
+  right: 0px;
+  bottom: -284px;
+  overflow: visible;
+  width: 584px;
+  height: 61px;
+  min-width: 0px;
+  float: none;
+  clear: none;
+  text-align: left;
+  font-family: 'Space Mono', monospace;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.times {
+  font-weight: bold;
+}
+
+ul{
+  width:20%;
+  display: inline-block;
+  position: relative;
+  list-style-type: none;
+}
