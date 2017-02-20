@@ -14,21 +14,18 @@
   }
 }
 
-
-.contentcontainer {
-  padding-top: 70px;
-  padding-left: 400px;
-  margin-top: 100px;
-  width:100%;
+.hubcontainer {
+  margin-top: 10%;
+  text-align: center;
 }
 
 .formtitle {
-  margin-left: 290px;
-  position: relative;
-  left: 309px;
-  right: 0px;
-  margin-top: 200px;
   font-family: 'Space Mono', monospace;
+}
+
+.formcontainer {
+  text-align: center;
+  padding-top: 15%;
 }
 
 .googlemap {
@@ -48,27 +45,26 @@
 
 }
 
-.logo{
+.logo {
   font-size: 80px;
   font-family: 'VT323', monospace;
-  margin-left: 50px;
-  margin-top: -60px;
+  margin-left: 5%;
+  margin-top: -3%;
+
 }
 
 .report {
-  margin-left: 600px;
-  right: 0px;
-  bottom: -284px;
   overflow: visible;
-  width: 584px;
+  width: 30%;
   height: 61px;
-  min-width: 0px;
-  float: none;
-  clear: none;
   text-align: left;
   font-family: 'Space Mono', monospace;
-  font-size: 25px;
-  padding-left: 10px;
+  font-size: 25px;  
+}
+
+.report:focus {
+  outline: none;
+  box-shadow: 0 0 10px lightslategrey;
 }
 
 .times {
@@ -80,4 +76,5 @@ ul{
   display: inline-block;
   position: relative;
   list-style-type: none;
+  text-align: left; 
 }
