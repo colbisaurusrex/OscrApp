@@ -1,19 +1,18 @@
 angular.module('oscr.foodPoints', [])
-.controller('foodpointController', function($scope, $http, $location) {
-
-  $scope.addLoc = function(){
-    var location = $scope.location
+.controller('foodpointController', ($scope, $http, $location) => {
+  $scope.addLoc = function () {
+    const location = $scope.location;
     $scope.location = '';
     return $http({
       method: 'POST',
       url: '/foodpoints',
-      data: {location: location}
+      data: { location },
     })
-    .then( () => {
-     $location.path('/hub')
+    .then(() => {
+      $location.path('/hub');
     })
-    .catch( (error) => {
-      console.error(error)
-    })
-  }
-})
+    .catch((error) => {
+      console.error(error);
+    });
+  };
+});
