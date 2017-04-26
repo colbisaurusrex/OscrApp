@@ -1,5 +1,5 @@
 angular.module('oscr.foodPoints', [])
-.controller('foodpointController', ($scope, $http, $location) => {
+.controller('foodpointController', function($scope, $http, $location) {
   $scope.addLoc = function () {
     const location = $scope.location;
     $scope.location = '';

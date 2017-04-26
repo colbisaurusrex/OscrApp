@@ -1,5 +1,5 @@
 angular.module('oscr.hub', ['oscr.services'])
-.controller('hubController', ($scope, $http, $location, $route, mapOptions, geocoder) => {
+.controller('hubController', function($scope, $http, $location, $route, mapOptions, geocoder) {
   $scope.map = new google.maps.Map(document.getElementById('map'), mapOptions.mapOptions);
 
   $scope.getData = function () {
